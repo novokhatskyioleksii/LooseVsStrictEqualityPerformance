@@ -36,6 +36,7 @@ const run = () => {
     const afterLoose = beforeLoose + microseconds.since(beforeLoose);
     loose.push(afterLoose - beforeLoose);
   } catch (e) {
+    console.log(e.message);
     process.exit(1);
   }
 };
