@@ -1,0 +1,14 @@
+{
+  "name": "loosevsstrictequalityperformance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runOp": "ITERATIONS_NUMBER=1000000 node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microseconds": "^0.2.0"
+  }
+}
